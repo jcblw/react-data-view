@@ -1,0 +1,67 @@
+
+/* type components */
+
+.TypeComponents {
+  display: inline-block;
+  color: #444;
+  font-size: 13px;
+  line-height: 1.3em;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font-family: monospace;
+}
+.TypeComponents--object,
+.TypeComponents--array {
+  display: block;
+  position: relative;
+}
+.TypeComponents--objectKey,
+.TypeComponents--arrayKey {
+  display: block;
+  padding-left: 10px;
+}
+.TypeComponents--block {
+  display: block;
+}
+.TypeComponents--key {
+  color: rebeccapurple;
+}
+.TypeComponents--key:after {
+  content: ':';
+  padding-right: 5px;
+  display: inline-block;
+}
+
+.TypeComponents--string {
+  color: tomato;
+}
+
+.TypeComponents--number,
+.TypeComponents--boolean {
+  color: dodgerblue;
+}
+
+.is-expandable > .TypeComponents--key {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.is-expandable > .TypeComponents--key:hover {
+  text-decoration: underline;
+}
+
+.is-expandable:before {
+  font-size: .5em;
+  margin-top: .2em;
+  content: '▶︎';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  color: silver;
+}
+
+.is-expandable.is-open:before {
+  content: '▼';
+}
