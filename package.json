@@ -1,5 +1,5 @@
 {
-  "name": "react-data-viewer",
+  "name": "react-data-view",
   "version": "0.0.1",
   "description": "A way to view data structures in a similiar way that chrome devtools do",
   "main": "lib/index.js",
