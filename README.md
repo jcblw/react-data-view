@@ -1,5 +1,7 @@
 # React Data View
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/react-data-view.svg)](https://greenkeeper.io/)
+
 Makes a way to view large sets of data similar to how Google Chrome DevTools shows data.
 
 ![Data Viewer](https://raw.githubusercontent.com/jcblw/react-data-viewer/master/example.gif)
